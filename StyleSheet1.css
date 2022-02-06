@@ -1,0 +1,47 @@
+﻿body {
+    background-image: url(https://media.giphy.com/media/12wt0nNOpsozU4/giphy.gif);
+    background-size: 100%;
+    color: ghostwhite;
+}
+
+#image-minecraft-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: cornflowerblue;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    width: 60px;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+  background-color: chartreuse;
+  color: white;
+}
+
+.active {
+    background-color: brown;
+    color: white;
+}
