@@ -4,6 +4,7 @@
     color: ghostwhite;
 }
 
+
 #image-minecraft-logo {
     display: block;
     margin-left: auto;
@@ -13,8 +14,22 @@
 
 h1 {
     font-family: monospace;
-    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(255,250,250, 40%);
+    color: rgba(0, 0, 0, 80%);
+    font-size: 60px;
     text-align: center;
+}
+
+p{
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 70%);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 430px;
+    bottom: 10px;
+    width: 800px;
 }
 
 ul {
@@ -22,7 +37,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: rgb(92 82 0); /* brown color */
+    background-color: rgba(139,69,19, 50%); /* brown color */
 }
 
 li a {
@@ -36,7 +51,7 @@ li a:hover {
     background-color: rgb(30 129 22); /* dark green color */
     color: white;
 }
-
+    
 .active {
     background-color: brown;
     color: white;
