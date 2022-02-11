@@ -1,0 +1,65 @@
+﻿body {
+    background-image: url(https://media.giphy.com/media/WPYq4ssI1BCNy/giphy.gif);
+    background-size: 100%;
+    color: ghostwhite;
+}
+
+/* Navbar */
+.sidenav {
+    font-family: monospace;
+    height: 100%;
+    width: 160px;
+    position: fixed; /* stays in place */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,128,0, 0.95);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+    /* navbar links */
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: white;
+        }
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+.too_many {
+    font-family: monospace;
+    background-color: rgba(152,152,152, 80%);
+    color: rgba(0, 0, 0, 80%);
+    font-size: 45px;
+    text-align: center;
+}
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+    color:mediumpurple;
+}
+h4 {
+    font-family: monospace;
+    background-color: rgba(152,152,152, 80%);
+    color: rgba(0, 0, 0, 80%);
+    font-size: 25px;
+    text-align: center;
+}
+.heading{
+    font-family: monospace;
+    background-color: rgba(0,128,0, 80%);
+    color: rgba(0, 0, 0, 80%);
+    font-size: 35px;
+}
+p {
+    font-family: monospace;
+    font-size: 15px;
+}

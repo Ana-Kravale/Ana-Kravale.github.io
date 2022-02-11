@@ -1,0 +1,57 @@
+﻿body {
+    background-image: url(https://media.giphy.com/media/L00auhhVx68CI/giphy.gif);
+    background-size: 100%;
+    color: ghostwhite;
+}
+
+/* Navbar */
+.sidenav {
+    font-family: monospace;
+    height: 100%;
+    width: 160px;
+    position: fixed; /* stays in place */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,128,0, 0.95);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+    /* navbar links */
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: white;
+        }
+
+/* main minecraft logo picture */
+#image-minecraft-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* about page paragraph */
+p {
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 430px;
+    width: 800px;
+}
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+

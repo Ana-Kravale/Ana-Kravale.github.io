@@ -1,0 +1,80 @@
+﻿body {
+    background-image: url(https://media.giphy.com/media/pkshuOzWpo9LG/giphy.gif);
+    background-size: 100%;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+/* Navbar */
+.sidenav {
+    font-family: monospace;
+    height: 100%;
+    width: 160px;
+    position: fixed; /* stays in place */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,128,0, 0.95);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+    /* navbar links */
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: white;
+        }
+
+
+.body {
+    margin: 0;
+    font-family: monospace;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    background-color: lightblue;
+    padding: 30px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+    color: purple;
+    background-color: lightcyan;
+    background-clip: padding-box;
+}
+textarea.form-control {
+    font-family: monospace;
+    height: auto;
+}
+label.label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.butt {
+    display: inline-block;
+    color: rebeccapurple;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 40px;
+    line-height: 1.5;
+}
+.butt:hover {
+    color: darkslategrey;
+    text-decoration: none;
+}

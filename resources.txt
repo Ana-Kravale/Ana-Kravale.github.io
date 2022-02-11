@@ -1,9 +1,32 @@
 Resources for minecraft website:
 
+
 minecrfat logo: https://logos-download.com/741-minecraft-logo-download.html
-
-/////sunflower background gif : https://giphy.com/gifs/minecraft-flower-L00auhhVx68CI
- url(https://media.giphy.com/media/L00auhhVx68CI/giphy.gif) 
-
 forest background gif: https://giphy.com/gifs/minecraft-shader-12wt0nNOpsozU4
+sunflower gif: https://giphy.com/gifs/minecraft-flower-L00auhhVx68CI
+creeper creeping out gif: https://giphy.com/gifs/minecraft-creeper-WPYq4ssI1BCNy
+contact page gif: https://giphy.com/gifs/minecraft-pkshuOzWpo9LG
 
+about minecrfat:    https://en.wikipedia.org/wiki/Minecraft
+hated mobs: https://www.sportskeeda.com/minecraft/top-5-annoying-mobs-minecraft
+liked mobs: https://www.thetoptens.com/minecraft/minecraft-mobs/
+images of mobs: https://ftbwiki.org/Category:Mobs
+
+
+btn btn-primary btn-lg btn-block
+.btn
+
+
+
+main::::      <!-- Page content -->
+    <div class="main">
+
+        <p>
+            
+    </div>
+
+
+main css:::     .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
